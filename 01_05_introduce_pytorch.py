@@ -8,7 +8,8 @@ Created on Sat Feb  5 18:54:27 2022
 
 import torch
 
-# print(torch.cuda.is_available())
+print(torch.cuda.is_available())
+print("="*80)
 print(dir(torch))
 print("="*80)
 print(dir(torch.cuda))
